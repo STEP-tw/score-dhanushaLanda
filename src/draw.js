@@ -40,7 +40,7 @@ const drawFood=function(food) {
   paintCell(food,"food");
 }
 
-const showScore = function(){
+const displayScore = function(){
   let score = game.getScore();
-  document.getElementById('score').innerText = score; 
+  document.getElementById('score').innerText = score;
 }
